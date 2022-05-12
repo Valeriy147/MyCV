@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color:blue;
+}
+a:visited{
+    color:grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info{
+display: flex;
+margin-bottom: 20px;
+}
+@media (max-width: 750px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+.info-text{
+    margin-left: 30px;
+}
+.info p{
+color: #86898f;
+margin: 0;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+text-transform: none;
+/* text-transform: uppercase; */
+/* letter-spacing: 5px; */
+/* word-spacing: 42px; */
+}
+
+.pet a{
+    margin-left: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 10px;
+}
+.messBtn{
+    font-size: small;
+    font-family: inherit;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 80px;
+    height: 40px;
+    border-radius: 40%;
+    background: rgb(130, 19, 96);
+    color: white;
+}
+.messBtn{
+    padding-top: 7px;
+}
+.bg-purple{
+    background: rgb(233, 165, 216);
+}
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe5;
+}
+.bg-red {
+    background: #ffe5e5
+}
+
+.card {
+    padding: 15px, 20px;
+    border-radius: 20px;
+}
+.card h2{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.list {
+    padding: 10 20px;
+    margin-top: 0px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 7px;
+}
+.table {
+    width: 100%
+
+}
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color: #86898f;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{
+display: block;
+font-size: 14px;
+color: #86898f;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20
+}
+.row > .form-group{
+    width:50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+    margin-right: 0
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #111;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
