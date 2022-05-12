@@ -28,13 +28,13 @@ a:visited{
 }
 
 .info{
-    display: flex;
+display: flex;
+margin-bottom: 20px;
 }
 @media (max-width: 750px){
     .info{
         display: block;
         text-align: center;
-
     }
 }
 .info-text{
@@ -52,10 +52,33 @@ text-transform: none;
 /* word-spacing: 42px; */
 }
 
+.pet a{
+    margin-left: 20px;
+}
+
 .container {
     max-width: 750px;
     margin: auto;
     padding-top: 10px;
+}
+.messBtn{
+    font-size: small;
+    font-family: inherit;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 80px;
+    height: 40px;
+    border-radius: 40%;
+    background: rgb(130, 19, 96);
+    color: white;
+}
+.messBtn{
+    padding-top: 7px;
+}
+.bg-purple{
+    background: rgb(222, 125, 198);
 }
 .bg-yellow{
     background: #fff9dc;
