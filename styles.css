@@ -98,6 +98,10 @@ text-transform: none;
     padding-left: 20px;
     margin-bottom: 10px;
 }
+.card h4{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
 .list {
     padding: 10 20px;
     margin-top: 0px;
